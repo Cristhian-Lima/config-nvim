@@ -9,6 +9,10 @@ Plug 'joshdick/onedark.vim'
 Plug 'safv12/andromeda.vim'
 Plug 'ghifarit53/tokyonight-vim'
 
+" interfaz de manejo de base de datos
+Plug 'tpope/vim-dadbod'
+Plug 'kristijanhusak/vim-dadbod-ui'
+
 " "IDE
 Plug 'easymotion/vim-easymotion'
 "Navigate with C-h C-l C-j C-k

@@ -52,3 +52,6 @@ nmap <leader>bd :bdelete<CR>
 "abrir Nerdtree
 nmap <Leader><TAB> :NERDTreeToggle<CR>
 command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+
+" abrir DB
+nmap <Leader>db :DBUIToggle<CR>
