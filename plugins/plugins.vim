@@ -2,12 +2,18 @@
 call plug#begin('~/.vim/plugged')
 " Temas
 " Themes
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'rakr/vim-one'
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
 Plug 'safv12/andromeda.vim'
 Plug 'ghifarit53/tokyonight-vim'
+
+" para colorear los lugares que tienen nueros hexadecimales
+Plug 'ap/vim-css-color'
+
 
 " interfaz de manejo de base de datos
 Plug 'tpope/vim-dadbod'
@@ -38,8 +44,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim',
 "colorizer plugin for #fe4918
 Plug 'norcalli/nvim-colorizer.lua'
-"Multiple cursor like in vscode
-Plug 'terryma/vim-multiple-cursors'
+" multiple cursor
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 "Have the indent lines 
 Plug 'yggdroot/indentline'
 "Git Integration ______________
@@ -51,5 +57,10 @@ Plug 'junegunn/gv.vim'
 Plug 'psliwka/vim-smoothie'
 Plug 'preservim/nerdcommenter'
 
-"_____________________________
+" fracciones de codigo.
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+" lineas de tabulacion
+Plug 'yggdroot/indentline'
 call plug#end()

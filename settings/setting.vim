@@ -8,9 +8,8 @@ set encoding=UTF-8
 set showmatch
 set sw=2
 set relativenumber
-let mapleader = " "
 set laststatus=2
-set backspace=2
 set guioptions-=T
 set guioptions-=L
-
+set nowrap
+let mapleader = " "

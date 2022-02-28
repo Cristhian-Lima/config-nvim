@@ -21,6 +21,7 @@ nnoremap ; $a;<Esc>
 "save file
 "guardar archivo
 nmap <Leader>e :e ~/AppData/Local/nvim/init.vim <CR>
+nmap <F5> :source ~/AppData/Local/nvim/init.vim <CR>
 nmap <leader>w :w <CR>
 
 "cerrar ventana

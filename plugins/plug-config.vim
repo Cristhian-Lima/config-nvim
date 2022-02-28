@@ -7,6 +7,7 @@
 
 "import COC config
 source ~/AppData/Local/nvim/plugins/coc-config.vim
+let g:python3_host_prog = 'C:\Users\crist\AppData\Local\Programs\Python\Python310\python.exe'
 
 "▄▀█ █ █▀█ █░░ █ █▄░█ █▀▀
 "█▀█ █ █▀▄ █▄▄ █ █░▀█ ██▄
@@ -67,3 +68,16 @@ function PrettierPhpCursor()
 endfunction
 " define custom command
 command PrettierPhp call PrettierPhpCursor()
+
+"Fragmentos de codigo.
+"Si necesita más configuración, puede ingresar lo siguiente en vimrc, no configure la configuración predeterminada
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsListSnippets = "<c-tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/pluged/vim-snippets/UltiSnips', $HOME.'/.vim/my-snippets']
+ 
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+

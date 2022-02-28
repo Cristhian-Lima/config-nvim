@@ -6,6 +6,8 @@
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  }
+  },
+  "ignore_all_lsp": true,
+  "tabnine.shortcut": "TN"
 }
 
